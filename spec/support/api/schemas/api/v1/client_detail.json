@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ClientBlueprint_VIEW_DETAIL",
+  "type": "object",
+  "required": [
+    "id",
+    "current_question"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "current_question": {
+      "type": "number"
+    }
+  }
+}

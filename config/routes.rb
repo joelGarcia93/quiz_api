@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :questions, only: [:index]
-      resources :clients, only: [:create]
+      resources :clients, only: [:create, :show]
       resources :client_answers, only: [:create] do
         collection do
           get :result
