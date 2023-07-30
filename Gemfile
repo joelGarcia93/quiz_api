@@ -49,3 +49,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # json serializer
 gem 'blueprinter', '~> 0.25.3'
 gem 'oj', '~> 3.13', '>= 3.13.17'
+
+# cors gem
+gem 'rack-cors', '~> 1.1', '>= 1.1.1'
