@@ -5,7 +5,7 @@ module Api
 
       view :detail do
         field :current_question do |object|
-          object.answers.count
+          object.client_answers.count
         end
       end
     end
