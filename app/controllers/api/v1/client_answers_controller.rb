@@ -12,7 +12,7 @@ class Api::V1::ClientAnswersController < ApplicationController
   def result
     result = ClientAnswer.result(params[:client_id])
 
-    render json: { result: result }, status: :ok
+    render json: { result: result, questions_count: Question.count }, status: :ok
   end
 
   private
